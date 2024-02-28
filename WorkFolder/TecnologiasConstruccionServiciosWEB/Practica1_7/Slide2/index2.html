@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Practica no 1.7 Redes de computadoras</title>
+        <script src="sceipt.js"></script>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <nav>
+            <!--Menu-->
+            <ul>
+                <li id="opc">Nombre: Ricardo Gonzalez Becerra</li>
+                <li id="opc">Matricula: 100171170</li>
+                <li id="opc">Ing. Software II</li>
+                <form action="descargaPDF.php" method="GET">
+                    <button type="submit" id="btnDescargar">
+                        Descargar PDF
+                    </button>
+                </form>
+            </ul>
+        </nav>
+
+        <h1>Practica 1.7 Redes de computadoras</h1>
+        <h3>Tecnologías de construcción de servicios WEB</h3>
+        <h2>Contenido</h2>
+
+        <ul start="1">
+            <li id="pregunta">
+                <h3>16. ¿Qué es comunicación full-duplex?</h3>
+                <p>
+                    La comunicación full-duplex es un tipo de comunicación en el
+                    que la información puede ser transmitida en ambas
+                    direcciones simultáneamente. Esto significa que los
+                    dispositivos pueden enviar y recibir datos al mismo tiempo,
+                    lo que permite una comunicación más rápida y eficiente. Un
+                    ejemplo común de comunicación full-duplex es una llamada
+                    telefónica, donde ambas partes pueden hablar y escuchar al
+                    mismo tiempo. La comunicación full-duplex es útil en
+                    situaciones donde se requiere una comunicación bidireccional
+                    rápida y fluida, como en videoconferencias, transmisiones en
+                    tiempo real y redes de computadoras.
+                </p>
+            </li>
+        </ul>
+
+        <ul start="1">
+            <li id="pregunta">
+                <h3>17. ¿Qué es comunicación conmutada?</h3>
+                <p>
+                    La comunicación conmutada es un tipo de comunicación en la
+                    que se establece una conexión temporal entre dos
+                    dispositivos a través de una red de telecomunicaciones, como
+                    una línea telefónica, para permitir la transmisión de datos.
+                    En este tipo de comunicación, la conexión se establece
+                    cuando se inicia la comunicación y se desconecta al
+                    finalizar la transmisión de datos. Un ejemplo común de
+                    comunicación conmutada es una llamada telefónica
+                    tradicional, donde se establece una conexión entre dos
+                    teléfonos cuando se realiza la llamada y se desconecta al
+                    finalizar la conversación. La comunicación conmutada suele
+                    utilizarse para comunicaciones de voz y datos de baja
+                    velocidad, como conexiones de módem a Internet.
+                </p>
+            </li>
+        </ul>
+
+        <ul start="1">
+            <li id="pregunta">
+                <h3>
+                    18. En base a comunicación conmutada ¿Qué es conmutación de
+                    circuitos?
+                </h3>
+                <p>
+                    La conmutación de circuitos es un método de establecimiento
+                    de conexiones en una red de telecomunicaciones en el que se
+                    establece un circuito físico dedicado entre el origen y el
+                    destino durante toda la duración de la comunicación. Durante
+                    esta conexión, se reserva un ancho de banda fijo y exclusivo
+                    para la comunicación, lo que garantiza una calidad de
+                    servicio constante pero puede resultar en un uso ineficiente
+                    de los recursos de la red, especialmente cuando la
+                    comunicación no se utiliza de manera continua. Un ejemplo
+                    clásico de conmutación de circuitos es una llamada
+                    telefónica tradicional realizada a través de la red
+                    telefónica conmutada (PSTN), donde se establece un circuito
+                    físico entre los dos teléfonos involucrados en la llamada
+                </p>
+            </li>
+        </ul>
+
+        <ul start="1">
+            <li id="pregunta">
+                <h3>
+                    19. En base a comunicación conmutada ¿Qué es conmutación de
+                    mensajes?
+                </h3>
+                <p>
+                    La conmutación de mensajes es un método de comunicación en
+                    redes donde los datos se dividen en paquetes discretos que
+                    se envían de manera independiente a través de la red. Cada
+                    paquete contiene información de dirección y puede seguir una
+                    ruta diferente hacia su destino, lo que hace que la
+                    conmutación de mensajes sea más eficiente en el uso de los
+                    recursos de red que la conmutación de circuitos. Este método
+                    se utiliza en redes de datos, como Internet, para transmitir
+                    correos electrónicos, mensajes instantáneos y otros tipos de
+                    datos.
+                </p>
+            </li>
+        </ul>
+
+        <ul start="1">
+            <li id="pregunta">
+                <h3>
+                    20. En base a comunicación conmutada ¿Qué es conmutación de
+                    paquetes?
+                </h3>
+                <p>
+                    La conmutación de paquetes es un método de transmisión de
+                    datos en redes de computadoras donde la información se
+                    divide en paquetes, que son unidades de datos independientes
+                    con dirección de origen y destino. Estos paquetes viajan por
+                    la red de forma individual y se reensamblan en el destino
+                    final, lo que permite un uso más eficiente de los recursos
+                    de red al compartirse las rutas disponibles. Este método se
+                    utiliza en Internet y otras redes de datos para transmitir
+                    información de manera eficiente y confiable.
+                </p>
+            </li>
+        </ul>
+
+        <ul start="1">
+            <li id="pregunta">
+                <h3>
+                    21. En base a comunicación conmutada ¿Qué es conmutación
+                    hibrida?
+                </h3>
+                <p>
+                    La conmutación híbrida es un enfoque de conmutación que
+                    combina elementos de la conmutación de circuitos y la
+                    conmutación de paquetes. En este método, se establece una
+                    conexión de circuito dedicado para la transmisión de datos,
+                    similar a la conmutación de circuitos, pero los datos se
+                    dividen en paquetes para el transporte dentro de la red,
+                    como en la conmutación de paquetes. Esto permite una mayor
+                    flexibilidad y eficiencia en la utilización de los recursos
+                    de red, ya que se pueden compartir rutas de forma dinámica
+                    mientras se mantiene la calidad de servicio de una conexión
+                    de circuito dedicado. La conmutación híbrida se utiliza en
+                    algunas redes de telecomunicaciones para optimizar la
+                    transmisión de datos y voz.
+                </p>
+            </li>
+        </ul>
+
+        <ul start="1">
+            <li id="pregunta">
+                <h3>
+                    22. De acuerdo con tipos de redes ¿qué son redes públicas y
+                    redes privadas?
+                </h3>
+                <p>
+                    Las redes públicas son redes de telecomunicaciones que están
+                    disponibles para su uso por parte del público en general.
+                    Estas redes suelen ser gestionadas por proveedores de
+                    servicios de telecomunicaciones y ofrecen servicios como
+                    telefonía, acceso a Internet y comunicaciones móviles a
+                    través de infraestructuras compartidas. <br />
+                    Por otro lado, las redes privadas son redes de
+                    telecomunicaciones que están diseñadas para ser utilizadas
+                    por una organización específica, como una empresa o una
+                    institución. Estas redes suelen ser gestionadas y
+                    controladas por la organización y se utilizan para facilitar
+                    la comunicación interna y el intercambio de datos entre los
+                    miembros de la organización. <br />
+                    Las redes privadas pueden ser físicas, como una red de área
+                    local (LAN), o virtuales, como una red privada virtual (VPN)
+                    que utiliza la infraestructura de una red pública pero con
+                    seguridad y acceso restringido.
+                </p>
+            </li>
+        </ul>
+
+        <ul start="1">
+            <li id="pregunta">
+                <h3>
+                    23. De acuerdo con tipos de redes ¿qué son redes de
+                    conmutación y redes de difusión?
+                </h3>
+                <p>
+                    Las redes de conmutación son aquellas en las que los datos
+                    se transmiten a través de la red de un dispositivo a otro
+                    utilizando un método de conmutación, como la conmutación de
+                    circuitos o la conmutación de paquetes. En estas redes, los
+                    datos se envían de forma selectiva a través de la red,
+                    siguiendo rutas específicas según la dirección de destino.
+                    Por otro lado, las redes de difusión son aquellas en las que
+                    los datos se transmiten a todos los dispositivos de la red
+                    al mismo tiempo
+                </p>
+            </li>
+        </ul>
+
+        <ul start="1">
+            <li id="pregunta">
+                <h3>
+                    24. De acuerdo con tipos de redes ¿qué son redes LAN, MAN y
+                    WAN?
+                </h3>
+                <p>
+                    Las redes LAN (Red de Área Local) son redes de computadoras
+                    que cubren un área geográfica limitada, como una oficina, un
+                    edificio o un campus. Estas redes se utilizan para conectar
+                    dispositivos dentro de un área local y suelen ser de
+                    propiedad privada. <br />
+                    Las redes MAN (Red de Área Metropolitana) son redes de
+                    computadoras que cubren un área geográfica más grande que
+                    una LAN, como una ciudad o una región metropolitana. Estas
+                    redes se utilizan para interconectar dispositivos en una
+                    área metropolitana y pueden ser de propiedad pública o
+                    privada. <br />
+                    Las redes WAN (Red de Área Amplia) son redes de computadoras
+                    que cubren un área geográfica muy grande, como un país o
+                    incluso a nivel mundial. Estas redes se utilizan para
+                    interconectar dispositivos en diferentes ubicaciones
+                    geográficas y suelen ser de propiedad pública o privada.
+                </p>
+            </li>
+        </ul>
+
+        <ul start="1">
+            <li id="pregunta">
+                <h3>25. Escribir la definición de topología</h3>
+                <p>
+                    La topología de red se refiere a la disposición física o
+                    lógica de los dispositivos en una red de computadoras y a la
+                    forma en que están interconectados entre sí. Define cómo se
+                    comunican los dispositivos en la red y cómo se transmite la
+                    información entre ellos. La topología de red puede ser
+                    física, que se refiere a la disposición física real de los
+                    dispositivos y los cables, o lógica, que se refiere a la
+                    forma en que los datos se transmiten a través de la red
+                    independientemente de la disposición física de los
+                    dispositivos. Algunas topologías comunes incluyen la
+                    topología de bus, de anillo, de estrella y de malla. Cada
+                    tipo de topología tiene sus propias ventajas y desventajas
+                    en términos de costo, rendimiento, escalabilidad y
+                    confiabilidad.
+                </p>
+            </li>
+        </ul>
+
+        <ul start="1">
+            <li id="pregunta">
+                <h3>
+                    26. De acuerdo con topologías de red ¿Qué es topología
+                    estrella?
+                </h3>
+                <p>
+                    La topología estrella es un tipo de configuración de red en
+                    la que todos los dispositivos están conectados a un punto
+                    central, como un concentrador o un conmutador. Todos los
+                    datos pasan a través del centro, lo que facilita la
+                    administración y la detección de fallos, pero puede ser
+                    costoso y menos resistente a fallos que otras topologías.
+                </p>
+            </li>
+        </ul>
+
+        <ul start="1">
+            <li id="pregunta">
+                <h3>
+                    27. De acuerdo con topologías de red ¿Qué es topología en
+                    anillo?
+                </h3>
+                <p>
+                    Es un tipo de configuración de red en la que cada
+                    dispositivo está conectado directamente a dos dispositivos
+                    vecinos, formando un "anillo". Los datos se transmiten en un
+                    solo sentido a través del anillo, pasando de un dispositivo
+                    a otro hasta llegar a su destino. Esta topología es
+                    eficiente pero puede ser vulnerable a fallos si un
+                    dispositivo falla o si hay una interrupción en el anillo.
+                </p>
+            </li>
+        </ul>
+        <button onclick="sigPagina()" id="my-button">Siguiente Pagina</button>
+    </body>
+</html>

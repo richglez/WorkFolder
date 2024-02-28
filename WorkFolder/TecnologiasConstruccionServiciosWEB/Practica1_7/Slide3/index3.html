@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Practica no 1.7 Redes de computadoras</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <nav>
+            <!--Menu-->
+            <ul>
+                <li id="opc">Nombre: Ricardo Gonzalez Becerra</li>
+                <li id="opc">Matricula: 100171170</li>
+                <li id="opc">Ing. Software II</li>
+                <form action="descargaPDF.php" method="GET">
+                    <button type="submit" id="btnDescargar">
+                        Descargar PDF
+                    </button>
+                </form>
+            </ul>
+        </nav>
+
+        <h1>Practica 1.7 Redes de computadoras</h1>
+        <h3>Tecnologías de construcción de servicios WEB</h3>
+        <h2>Contenido</h2>
+
+        <ul start="1">
+            <li id="pregunta">
+                <h3>
+                    28. De acuerdo con topologías de red ¿Qué es topología en
+                    bus?
+                </h3>
+                <p>
+                    La topología en bus es un tipo de configuración de red en la
+                    que todos los dispositivos están conectados a un único cable
+                    principal, conocido como "bus". Los datos se transmiten a lo
+                    largo del bus y todos los dispositivos pueden ver las
+                    señales transmitidas, pero solo el dispositivo destinatario
+                    procesará los datos. Esta topología es fácil de instalar y
+                    económica, pero puede tener problemas de congestión y de
+                    rendimiento en redes grandes.
+                </p>
+            </li>
+        </ul>
+
+        <ul start="1">
+            <li id="pregunta">
+                <h3>
+                    29. De acuerdo con topologías de red ¿Qué es topología en
+                    árbol?
+                </h3>
+                <p>
+                    La topología en árbol es un tipo de configuración de red en
+                    la que los dispositivos están organizados en una estructura
+                    de árbol jerárquica. Un nodo central, como un concentrador o
+                    un conmutador, se conecta a varios nodos secundarios que a
+                    su vez pueden estar conectados a nodos adicionales. Esta
+                    topología es escalable y puede manejar grandes cantidades de
+                    dispositivos, pero puede ser costosa de implementar y
+                    mantener.
+                </p>
+            </li>
+        </ul>
+
+        <ul start="1">
+            <li id="pregunta">
+                <h3>
+                    30. De acuerdo con topologías de red ¿Qué es topología
+                    irregular?
+                </h3>
+                <p>
+                    La topología irregular, también conocida como topología de
+                    red no estructurada, es una configuración en la que los
+                    dispositivos están conectados de manera no estándar o
+                    predefinida. En esta topología, los dispositivos pueden
+                    estar interconectados de diversas formas, sin seguir un
+                    patrón específico como en otras topologías. Esto puede
+                    ocurrir en redes pequeñas o en redes que han evolucionado
+                    con el tiempo de forma orgánica, resultando en una mezcla de
+                    conexiones que pueden ser difíciles de gestionar y
+                    diagnosticar en comparación con las topologías más
+                    estructuradas.
+                </p>
+            </li>
+        </ul>
+
+        <ul start="1">
+            <li id="pregunta">
+                <h3>
+                    31. De acuerdo con topologías de red ¿Qué es topología
+                    completa?
+                </h3>
+                <p>
+                    La topología completa es un tipo de configuración de red en
+                    la que cada dispositivo está conectado directamente a todos
+                    los demás dispositivos de la red. En una topología completa
+                    de n nodos, cada nodo tiene una conexión directa con n−1
+                    nodos adicionales. Esta topología ofrece alta redundancia y
+                    tolerancia a fallos, pero puede ser costosa de implementar y
+                    mantener, especialmente en redes grandes, debido al gran
+                    número de conexiones requeridas.
+                </p>
+            </li>
+        </ul>
+
+        <ul start="1">
+            <li id="pregunta">
+                <h3>32. Definir modelo OSI</h3>
+                <p>
+                    El modelo OSI (Open Systems Interconnection) es un modelo
+                    conceptual que describe cómo las aplicaciones de red se
+                    comunican a través de una red de computadoras. El modelo OSI
+                    consta de siete capas, cada una con una función específica
+                    en el proceso de comunicación de datos. Estas capas son:
+                    física, de enlace de datos, de red, de transporte, de
+                    sesión, de presentación y de aplicación. Cada capa del
+                    modelo OSI se comunica con las capas adyacentes a través de
+                    interfaces definidas, y cada capa realiza funciones
+                    específicas para garantizar que los datos se transmitan de
+                    manera eficiente y confiable a través de la red.
+                </p>
+            </li>
+        </ul>
+
+        <ul start="1">
+            <li id="pregunta">
+                <h3>33. Escribir las capas del modelo OSI y su aplicación</h3>
+                <p></p>
+                <ul>
+                    <li>
+                        Capa física: Esta capa se encarga de la transmisión de
+                        bits a través de un medio de comunicación físico, como
+                        cables de cobre, fibra óptica o ondas de radio. Se
+                        encarga de la forma en que se representan los bits, la
+                        velocidad de transmisión y la sincronización de los
+                        dispositivos.
+                    </li>
+
+                    <!-- Subviñeta -->
+                    <li>
+                        Capa de enlace de datos: Esta capa se encarga de la
+                        transmisión de tramas de datos entre dispositivos
+                        adyacentes en la red local. Su objetivo principal es
+                        garantizar la integridad de los datos mediante el
+                        control de errores, la detección de errores y el control
+                        de flujo.
+                    </li>
+                    <li>
+                        Capa de red: La capa de red se encarga de enrutar los
+                        datos a través de la red desde el origen hasta el
+                        destino. Utiliza direcciones lógicas (como direcciones
+                        IP) para identificar los dispositivos en la red y
+                        determinar la mejor ruta para enviar los datos.
+                    </li>
+
+                    <!-- Subviñeta -->
+                    <li>
+                        Capa de transporte: La capa de transporte se encarga de
+                        la transmisión de datos de extremo a extremo y de
+                        garantizar que los datos se entreguen de manera fiable y
+                        en orden. Proporciona servicios como el control de
+                        flujo, la segmentación de datos y la corrección de
+                        errores.
+                    </li>
+                    <li>
+                        Capa de sesión: La capa de sesión establece, mantiene y
+                        finaliza las conexiones entre aplicaciones en diferentes
+                        dispositivos. Proporciona servicios de sincronización,
+                        control de diálogo y gestión de la sesión.
+                    </li>
+
+                    <!-- Subviñeta -->
+                    <li>
+                        Capa de presentación: La capa de presentación se encarga
+                        de la representación de los datos para que puedan ser
+                        interpretados por las aplicaciones. Se encarga de la
+                        conversión de formatos de datos, la compresión y el
+                        cifrado de datos.
+                    </li>
+
+                    <!-- Subviñeta -->
+                    <li>
+                        Capa de aplicación: La capa de aplicación proporciona
+                        servicios de red a las aplicaciones de usuario. Incluye
+                        protocolos como HTTP (para la navegación web), SMTP
+                        (para el correo electrónico) y FTP (para la
+                        transferencia de archivos).
+                    </li>
+                </ul>
+            </li>
+        </ul>
+
+        <ul start="1">
+            <li id="pregunta">
+                <h3>34. Definir ¿Qué es una norma?</h3>
+                <p>
+                    En redes, una norma es un conjunto de reglas y estándares
+                    establecidos que especifican cómo deben comunicarse los
+                    dispositivos en una red. Estas normas garantizan la
+                    compatibilidad y la interoperabilidad entre los diferentes
+                    dispositivos de red, permitiendo que puedan comunicarse de
+                    manera eficiente y efectiva. Las normas en redes abarcan
+                    desde especificaciones físicas, como tipos de cables y
+                    conectores, hasta protocolos de comunicación, como TCP/IP,
+                    que definen cómo se transmiten y reciben los datos en una
+                    red. Las normas son fundamentales para el funcionamiento y
+                    la gestión adecuada de las redes, ya que permiten la
+                    creación de redes coherentes y fiables.
+                </p>
+            </li>
+        </ul>
+
+        <ul start="1">
+            <li id="pregunta">
+                <h3>35. ¿Qué significa IEEE?</h3>
+                <p>
+                    IEEE significa "Institute of Electrical and Electronics
+                    Engineers", que en español se traduce como "Instituto de
+                    Ingenieros Eléctricos y Electrónicos". Es una organización
+                    profesional dedicada al avance de la tecnología relacionada
+                    con la electricidad, la electrónica y las
+                    telecomunicaciones. IEEE es conocido por desarrollar
+                    estándares técnicos en diversas áreas, incluyendo redes de
+                    computadoras, comunicaciones, electrónica, y muchos otros
+                    campos relacionados con la ingeniería eléctrica y
+                    electrónica.
+                </p>
+            </li>
+        </ul>
+
+        <ul start="1">
+            <li id="pregunta">
+                <h3>36. ¿Qué dice la norma IEEE-802?</h3>
+                <p>
+                    La norma IEEE 802 es un conjunto de estándares para redes de
+                    área local (LAN) y redes de área metropolitana (MAN). Define
+                    los protocolos de comunicación y las especificaciones
+                    físicas para redes Ethernet, Wi-Fi y otras tecnologías de
+                    redes.
+                </p>
+            </li>
+        </ul>
+
+        <ul start="1">
+            <li id="pregunta">
+                <h3>37. Escribir la arquitectura del estándar 80?</h3>
+                <ul>
+                    <li>
+                        Capa física (PHY): Define las características físicas y
+                        eléctricas de la red, como los tipos de cables, las
+                        frecuencias de operación y los métodos de modulación.
+                    </li>
+                </ul>
+
+                <ul>
+                    <li>
+                        Capa de enlace de datos (MAC): Controla el acceso al
+                        medio y la transmisión de datos, incluyendo la detección
+                        de colisiones y la resolución de conflictos.
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        Subcapa de control de acceso al medio (MAC): Gestiona el
+                        acceso al medio compartido y define cómo se asigna el
+                        tiempo de transmisión entre los dispositivos.
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        Subcapa de control lógico de enlace (LLC): Proporciona
+                        un interfaz entre la capa de enlace de datos y las capas
+                        superiores, como la capa de red, y controla la
+                        comunicación entre dispositivos en diferentes redes.
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        Capa de red (Network): Proporciona funciones de
+                        enrutamiento y reenvío de paquetes entre dispositivos en
+                        la red.
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        Capa de transporte (Transport): Proporciona funciones de
+                        transporte de datos extremo a extremo, como el control
+                        de flujo y la detección de errores.
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        Capa de aplicación (Application): Proporciona servicios
+                        de red a las aplicaciones de usuario, como la
+                        transferencia de archivos, el correo electrónico y la
+                        navegación web.
+                    </li>
+                </ul>
+            </li>
+        </ul>
+
+        <ul start="1">
+            <li id="pregunta">
+                <h3>38. Definir protocolo</h3>
+                <p>
+                    Un protocolo es un conjunto de reglas y convenciones que
+                    permiten la comunicación entre dispositivos en una red.
+                    Establece cómo se transmiten, reciben y procesan los datos
+                    para garantizar una comunicación efectiva y confiable.
+                </p>
+            </li>
+        </ul>
+
+        <ul start="1">
+            <li id="pregunta">
+                <h3>39. Definir TCP/IP</h3>
+                <ul>
+                    <li>
+                        TCP/IP (Transmission Control Protocol/Internet Protocol)
+                        es el conjunto de protocolos de comunicación utilizados
+                        para la transmisión de datos en Internet y en muchas
+                        redes privadas.
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        TCP/IP establece cómo los dispositivos en una red deben
+                        comunicarse entre sí, dividiendo la comunicación en
+                        paquetes de datos y especificando cómo se enrutan y
+                        entregan esos paquetes de manera eficiente y segura.
+                    </li>
+                </ul>
+            </li>
+        </ul>
+
+        <ul start="1">
+            <li id="pregunta">
+                <h3>40. Definir UDP/ID</h3>
+                <p>
+                    es un protocolo de comunicación en redes de computadoras.
+                    UDP es un protocolo sin conexión y orientado a la
+                    transmisión de datos de manera rápida y eficiente. A
+                    diferencia de TCP, UDP no garantiza la entrega de los datos
+                    ni el orden en el que se reciben, por lo que es utilizado
+                    para aplicaciones que pueden tolerar cierto grado de pérdida
+                    de datos, como transmisiones de audio y video en tiempo
+                    real.
+                </p>
+            </li>
+        </ul>
+
+        <ul start="1">
+            <li id="pregunta">
+                <h3>41. Escribir la arquitectura del TCP/IP</h3>
+                <p>
+                    La arquitectura TCP/IP consta de cuatro capas principales:
+                </p>
+                <ul>
+                    <li>
+                        Capa de Acceso a la Red: Se encarga de la conexión
+                        física entre los dispositivos y la red, especificando
+                        cómo los datos son transmitidos a través del medio
+                        físico, como cables o ondas de radio.
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        Capa de Internet: Maneja la transferencia de datos a
+                        través de la red, incluyendo el enrutamiento de paquetes
+                        entre diferentes redes.
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        Capa de Transporte: Proporciona servicios de
+                        comunicación extremo a extremo, garantizando la entrega
+                        de datos y la corrección de errores. TCP (Transmission
+                        Control Protocol) y UDP (User Datagram Protocol) son los
+                        protocolos principales en esta capa.
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        Capa de Aplicación: Ofrece servicios de red a las
+                        aplicaciones de usuario, como HTTP para navegación web,
+                        SMTP para correo electrónico, y FTP para transferencia
+                        de archivos.
+                    </li>
+                </ul>
+            </li>
+        </ul>
+
+        <ul start="1">
+            <li id="pregunta">
+                <h3>42. Escribir la arquitectura del UDP/IP</h3>
+                <p>
+                    La arquitectura UDP/IP se basa en dos protocolos
+                    principales:
+                </p>
+                <ul>
+                    <li>
+                        UDP (User Datagram Protocol): UDP es un protocolo de
+                        transporte sin conexión que se utiliza para enviar
+                        datagramas de manera rápida y eficiente en una red. No
+                        proporciona garantía de entrega ni de orden de los
+                        paquetes.
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        IP (Internet Protocol): IP es el protocolo de red que se
+                        encarga del enrutamiento de paquetes entre dispositivos
+                        en una red. Se encarga de asignar direcciones IP únicas
+                        a cada dispositivo y de determinar la mejor ruta para
+                        que los paquetes lleguen a su destino.
+                    </li>
+                </ul>
+                <p>
+                    Juntos, UDP e IP forman la base de la comunicación en
+                    Internet y en muchas redes locales, proporcionando un
+                    mecanismo simple pero efectivo para la transmisión de datos
+                    entre dispositivos.
+                </p>
+            </li>
+        </ul>
+
+        <ul start="1">
+            <li id="pregunta">
+                <h3>
+                    43. De acuerdo con conceptos utilizados en redes ¿Qué es un
+                    paquete?
+                </h3>
+                <p>
+                    Un paquete es una unidad de datos que se envía a través de
+                    una red de computadoras. Contiene información como la
+                    dirección de origen, la dirección de destino, el tipo de
+                    datos y los datos reales que se están transmitiendo. Los
+                    paquetes son la forma en que se organizan y transmiten los
+                    datos en una red, y cada paquete se enruta de forma
+                    independiente a su destino final.
+                </p>
+            </li>
+        </ul>
+
+        <ul start="1">
+            <li id="pregunta">
+                <h3>44. Escribir el formato típico de un paquete</h3>
+                <p>
+                    El formato típico de un paquete de red varía dependiendo del
+                    protocolo utilizado, pero generalmente incluye las
+                    siguientes partes:
+                </p>
+                <ul>
+                    <li>
+                        Encabezado: Contiene información de control, como la
+                        dirección de origen y destino, el tipo de protocolo
+                        utilizado y la longitud del paquete.
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        Datos: Contiene los datos que se están transmitiendo,
+                        como un mensaje de correo electrónico, una página web o
+                        un archivo.
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        Checksum: Un valor numérico que se utiliza para
+                        verificar la integridad del paquete y detectar errores
+                        durante la transmisión.
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        Pie de página (tráiler): Algunos protocolos incluyen un
+                        campo al final del paquete que indica el final del
+                        mismo.
+                    </li>
+                </ul>
+                <p>
+                    Este es un formato generalizado y puede variar según el
+                    protocolo específico utilizado, como IPv4, IPv6, TCP, UDP,
+                    etc.
+                </p>
+            </li>
+        </ul>
+
+        <ul start="1">
+            <li id="pregunta">
+                <h3>45. Escribir la definición de redes de banda ancha</h3>
+                <p>
+                    Las redes de banda ancha son redes de comunicación que
+                    tienen la capacidad de transmitir datos a velocidades
+                    relativamente altas. Utilizan técnicas como la
+                    multiplexación y el uso de canales de comunicación dedicados
+                    para permitir la transmisión de grandes volúmenes de datos a
+                    través de la red. Las redes de banda ancha son comúnmente
+                    utilizadas para servicios como Internet de alta velocidad,
+                    telefonía IP y televisión por cable.
+                </p>
+            </li>
+        </ul>
+
+        <ul start="1">
+            <li id="pregunta">
+                <h3>46. Definir ATM</h3>
+                <p>
+                    ATM (Asynchronous Transfer Mode) es una tecnología de red
+                    que utiliza paquetes de tamaño fijo llamados "celdas" para
+                    transmitir datos. Cada celda ATM tiene una longitud de 53
+                    bytes y consta de un encabezado de 5 bytes y una carga útil
+                    de 48 bytes. ATM es conocido por su capacidad para manejar
+                    grandes volúmenes de tráfico de datos de manera eficiente y
+                    garantizar una calidad de servicio (QoS) adecuada para
+                    aplicaciones sensibles al retardo, como la transmisión de
+                    voz y video.
+                </p>
+            </li>
+        </ul>
+
+        <ul start="1">
+            <li id="pregunta">
+                <h3>47. Escribir la definición de redes inalámbricas</h3>
+                <p>
+                    Las redes inalámbricas son sistemas de comunicación que
+                    permiten la transmisión de datos sin la necesidad de cables
+                    físicos. Utilizan tecnologías como ondas de radio,
+                    microondas e infrarrojos para transmitir datos entre
+                    dispositivos. Las redes inalámbricas son comúnmente
+                    utilizadas para proporcionar acceso a Internet, conectar
+                    dispositivos móviles y crear redes locales (LAN) sin cables.
+                </p>
+            </li>
+        </ul>
+    </body>
+</html>
