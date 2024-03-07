@@ -1,0 +1,47 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    text-align: center;
+    align-items: center;
+}
+
+.contenedor {
+    background-color: #184699;
+    padding: 10px;
+    width: 200px;
+    height: 100vh; /* Cambié la altura a 100vh para que ocupe toda la altura de la pantalla */
+    display: flex;
+    flex-direction: column; /* Alineación vertical */
+    justify-content: flex-start; /* Alineación vertical */
+}
+
+.input-container {
+    position: relative;
+    display: inline-block;
+    margin-bottom: 20px; /* Añadí margen inferior para separar los elementos */
+}
+
+#txtPacienteCSS {
+    padding: 10px; /* Aumenté el padding para que sea más visible */
+    border: none;
+    border-radius: 5px;
+    background-color: #fff;
+    color: #333;
+    font-size: 16px;
+    width: 100%; /* Modifiqué el ancho para que ocupe todo el contenedor */
+    box-sizing: border-box; /* Añadí esta propiedad para que el padding no afecte al ancho total */
+    outline: none; /* Quité el contorno al hacer focus */
+}
+
+#searchIcon {
+    position: absolute;
+    left: 10px;
+    top: 50%; /* Cambié la posición para que esté centrado verticalmente */
+    transform: translateY(-50%);
+    color: #333;
+    cursor: pointer;
+    z-index: 1;
+}

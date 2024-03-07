@@ -1,0 +1,78 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    color: black;
+    box-sizing: border-box; /* Agregado para incluir el padding y border en el ancho y alto total del elemento */
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f3f3f3;
+}
+
+
+
+
+.wrapperInicial {
+    width: 80%;
+    max-width: 600px;
+    padding: 20px;
+    background-color: rgb(34, 196, 255);
+    box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.5);
+    border-radius: 10px; /* Añadido para redondear las esquinas del contenedor */
+}
+
+.wrapper {
+    background-color: rgb(76, 207, 255);
+    padding: 20px;
+    margin-bottom: 20px; /* Espacio entre los dos contenedores */
+    border-radius: 5px; /* Añadido para redondear las esquinas del contenedor */
+}
+
+.wrapper2 {
+    background-color: rgb(23, 54, 255);
+    padding: 20px;
+    border-radius: 5px; /* Añadido para redondear las esquinas del contenedor */
+}
+
+h1 {
+    margin-bottom: 20px; /* Espacio entre el título y el formulario */
+    font-weight: 400px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 10px; /* Espacio entre las etiquetas y los campos de entrada */
+}
+
+#input {
+    padding: 5px;
+    margin-bottom: 10px; /* Espacio entre los campos de entrada */
+    border-radius: 3px; /* Añadido para redondear las esquinas de los campos de entrada */
+    border: 1px solid #9ea2ff; /* Añadido para darle un borde a los campos de entrada */
+    background-color: rgb(166, 194, 255);
+}
+
+
+#btnCalcular{
+    height: 32px;
+    width: 100px;
+    background-color: rgb(30, 131, 255);
+    border: none;
+    cursor: pointer;
+    transition-duration: 0.5s;
+}
+
+#btnCalcular:hover {
+    background-color: rgb(23, 10, 212);
+}
