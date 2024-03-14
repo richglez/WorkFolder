@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Empleados</title>
+        <link rel="stylesheet" href="./articulos.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="empleados.css">
+    </head>
+    <body>
+        <nav class="nav-menu">
+            <ul>
+                <li>
+                    <a href="../index.html" id="app-title">Punto Venta</a>
+                </li>
+                <li>
+                    <a href="../Articulos/articulos.html">Articulos</a>
+                </li>
+                <li>
+                    <a href="../Ventas/ventas.html">Ventas</a>
+                </li>
+                <li>
+                    <a href="./empleados.html">Empleados</a>
+                </li>
+            </ul>
+        </nav>
+
+        <h1>Empleados</h1>
+        <form action="../index.html" method="get" id="form-newArticulo">
+            <label for="txtFolio">Folio</label>
+            <input type="text" name="" id="txtFolio" />
+
+            <label for="txtUsername">Usuario</label>
+            <input type="text" name="" id="txtUsername" />
+
+            <label for="txtPassword">Contrasena</label>
+            <input type="text" name="" id="txtPassword" />
+
+            <label for="txtClaveEmpleado">Clave del empleado</label>
+            <input type="text" name="" id="txtClaveEmpleado" />
+
+            <label for="txtNombreEmpleado">Nombre del empleado</label>
+            <input type="text" name="" id="txtNombreEmpleado" />
+
+            <label for="txtFechaRegistro_em">Fecha de alta</label>
+            <input type="datetime-local" name="" id="txtFechaRegistro_em" />
+
+            <input type="submit" id="btnAltaEmpleado" value="Registrar empleado" />
+        </form>
+        <img src="../../assets/1486506254-market-open-shopping-commerce-shop-store_81447.ico" id="logo" alt="" srcset="">
+
+        <script src="./empleados.js"></script>
+    </body>
+</html>

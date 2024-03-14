@@ -1,0 +1,136 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+
+
+
+
+/* Navgacion */
+.nav-menu {
+    display: flex; /* Cambia a un diseño de flexbox para centrar el texto verticalmente */
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+    background-color: #f6d365; /* Cambia el fondo */
+    height: 100px;
+    width: 100%;
+}
+
+
+.nav-menu a {
+    /* padding: 10px 20px; Espaciado dentro de los enlaces */
+    bottom: 30px;
+    margin-left: 40px;
+    transition: color 0.3s, background-color 0.3s; /* Aplica transición a color y fondo */
+
+    color: #767676;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+/* Efecto hover en los enlaces */
+.nav-menu a:hover {
+    color: #fff; /* Cambia el color del texto */
+    background-color: #f6d365; /* Cambia el fondo */
+}
+
+
+.nav-menu #app-title{
+    position: relative;
+    left: -200px;  /*Porque esto no funciona?<----*/
+    top: 0px;
+    font-weight: 800;
+    font-size: 30px;
+}
+
+.nav-menu li{
+    display: inline;
+    margin-right: 20px; /* Espaciado entre elementos */
+}
+
+
+
+.nav-menu ul {
+    list-style: none; /* Elimina los puntos de la lista */
+}
+
+
+
+
+
+h1{
+    margin-left: 90px;
+    margin-top: 20px;
+}
+
+/* Estilo para el formulario */
+#form-newArticulo {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #f9f9f9;
+}
+
+#form-newArticulo h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+#form-newArticulo label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+#form-newArticulo input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box;
+}
+
+#form-newArticulo input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+    background-color: #f6d365;
+    color: #fff;
+    cursor: pointer;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    padding: 10px 45px;
+}
+
+#form-newArticulo input[type="submit"]:hover {
+    background-color: #f9a826;
+}
+
+
+
+#txtFechaRegistro_em {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box;
+}
+
+
+
+#logo {
+    position: absolute;
+    top: 200px; /* Ajusta la distancia desde la parte superior */
+    left: 100px; /* Ajusta la distancia desde la parte derecha */
+}

@@ -11,3 +11,5 @@ preguntas.forEach((pregunta) => {
         respuesta.classList.toggle('mostrar');
     });
 });
+
+alert('Bienvenido')
