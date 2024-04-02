@@ -17,5 +17,9 @@
             // header("Location: index.html"); // Redirige al usuario a index.html
             exit(); // Es importante terminar el script después de la redirección para evitar que se ejecuten más instrucciones
         }
-    }
+}
+
+
+
+
 
