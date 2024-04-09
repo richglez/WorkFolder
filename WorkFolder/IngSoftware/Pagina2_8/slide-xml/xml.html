@@ -4,36 +4,114 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>XML</title>
+        <link rel="stylesheet" href="xml.css" />
     </head>
     <body>
-        <h1>XML</h1>
-        <p>
-            El lenguaje de marcado extensible (XML) permite definir y almacenar
-            datos de forma compartible. XML admite el intercambio de información
-            entre sistemas de computación, como sitios web, bases de datos y
-            aplicaciones de terceros. Las reglas predefinidas facilitan la
-            transmisión de datos como archivos XML a través de cualquier red, ya
-            que el destinatario puede usar esas reglas para leer los datos de
-            forma precisa y eficiente.
-        </p>
+        <div class="header">
+            <nav class="menu">
+                <ul>
+                    <li>
+                        <img
+                            src="../imgs/1000_F_250305943_sDC6la1N1fDl3bLgfLxOkQwItIodsdMb-removebg-preview.png"
+                            alt=""
+                            srcset=""
+                            class="logo"
+                            onclick="window.location.href = '../index.html'"
+                        />
+                    </li>
+                    <input
+                        type="search"
+                        name=""
+                        id=""
+                        placeholder="Buscar algo"
+                    />
+                    <li>
+                        <h3><a href="">GitHub</a></h3>
+                    </li>
+                    <li>
+                        <h4 id="lblDate"></h4>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <div class="container">
+            <h1>XML</h1>
+            <p>
+                El lenguaje de marcado extensible (XML) permite definir y
+                almacenar datos de forma compartible. XML admite el intercambio
+                de información entre sistemas de computación, como sitios web,
+                bases de datos y aplicaciones de terceros. Las reglas
+                predefinidas facilitan la transmisión de datos como archivos XML
+                a través de cualquier red, ya que el destinatario puede usar
+                esas reglas para leer los datos de forma precisa y eficiente.
+            </p>
 
-        <h1>¿Por qué es importante el XML?</h1>
-        <p>
-            El lenguaje de marcado extensible (XML) es un lenguaje de marcado
-            que proporciona reglas para definir cualquier dato. A diferencia de
-            otros lenguajes de programación, XML no puede realizar operaciones
-            de computación por sí mismo. En cambio, se puede implementar
-            cualquier software o lenguaje de programación para la administración
-            estructurada de datos. Por ejemplo, imagine un documento de texto
-            con comentarios. Los comentarios pueden ofrecer sugerencias como las
-            siguientes: Ponga el título en negrita Esta oración es un encabezado
-            Esta palabra es el autor Estos comentarios mejoran la usabilidad del
-            documento sin repercutir en su contenido. Del mismo modo, XML
-            utiliza símbolos de marcado para proporcionar más información sobre
-            los datos. Otros programas, como los navegadores y las aplicaciones
-            de procesamiento de datos, utilizan esta información para procesar
-            datos estructurados de manera más eficiente.
-        </p>
-        <h4>Etiquetas XML</h4>
+            <h1>¿Por qué es importante el XML?</h1>
+            <p>
+                El lenguaje de marcado extensible (XML) es un lenguaje de
+                marcado que proporciona reglas para definir cualquier dato. A
+                diferencia de otros lenguajes de programación, XML no puede
+                realizar operaciones de computación por sí mismo. En cambio, se
+                puede implementar cualquier software o lenguaje de programación
+                para la administración estructurada de datos.
+            </p>
+            <div>
+                <p>
+                    Por ejemplo, imagine un documento de texto con comentarios.
+                    Los comentarios pueden ofrecer sugerencias como las
+                    siguientes:
+                </p>
+                <ul>
+                    <li>Ponga el título en negrita</li>
+                    <li>Esta oración es un encabezado</li>
+                    <li>Esta palabra es el autor</li>
+                </ul>
+            </div>
+
+            <img src="../imgs/Sin títu3lo.png" alt="">
+
+            <h4>Etiquetas XML</h4>
+            <p>
+                Los símbolos de marcado, denominados etiquetas en XML, se
+                utilizan para definir los datos. Por ejemplo, para representar
+                los datos de una librería, puede crear etiquetas como
+            </p>
+            <ul>
+                <li>&lt;libro></li>
+                <li>
+                    &lt;título>Introducción a Amazon Web Services&lt;/título>
+                </li>
+                <li>&lt;autor>Mark Wilkins&lt;/autor></li>
+                <li>&lt;/libro></li>
+            </ul>
+            <p>
+                Las etiquetas ofrecen una sofisticada codificación de datos para
+                integrar los flujos de información en diferentes sistemas.
+            </p>
+
+            <h1>¿Cuáles son los beneficios de usar XML?</h1>
+            <h4>Respaldo para las transacciones interempresariales</h4>
+            <p>
+                Cuando una empresa vende un bien o servicio a otra empresa, las
+                dos empresas necesitan intercambiar información como el costo,
+                las especificaciones y los plazos de entrega. Con el lenguaje de
+                marcado extensible (XML), pueden compartir toda la información
+                necesaria electrónicamente y cerrar negocios complejos de forma
+                automática, sin intervención humana.
+            </p>
+            <h4>Conservación de la integridad de los datos</h4>
+            <p>
+                XML le permite transferir datos junto con la descripción de los
+                datos, lo que evita la pérdida de la integridad de los datos.
+                Puede usar esta información descriptiva para hacer lo siguiente:
+            </p>
+            <ul>
+                <li>Verificar la precisión de los datos.</li>
+                <li>Personalizar automáticamente la presentación de datos para diferentes usuarios.</li>
+                <li>Almacenar datos de forma coherente en múltiples plataformas. </li>
+            </ul>
+        </div>
+
+        <script src="../index.js"></script>
     </body>
 </html>
